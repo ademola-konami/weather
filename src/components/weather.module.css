@@ -1,0 +1,109 @@
+
+.container {
+    height: 75%;
+    width: 40%;
+    margin: auto;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.7806px;
+    line-height: 26px;
+    color: black;  
+    margin-top: 0%;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 13.9839px;
+    position: relative;
+    overflow: auto;
+}
+.header {
+    margin-top: 50px;
+}
+.city {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-shadow: -1.39839px 2.09758px 0.699193px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.descri {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 26px;
+    color: #FFFFFF; 
+    text-shadow: -1.39839px 2.09758px 0.699193px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-shadow: -1.39839px 2.09758px 0.699193px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.temp {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 105px;
+    line-height: 107px;
+    color: #FFFFFF;
+    text-shadow: -2.79677px 5.59354px 34.9597px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+    text-align: center;
+}
+
+.container h4 {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 19px;
+    color: #FFFFFF; 
+    text-shadow: -2.79677px 5.59354px 34.9597px rgba(0, 0, 0, 0.1);
+}
+.sub {
+    display: flex;
+    height: 100%;
+    margin-left: 2.5% ;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+.name {
+    width: 100%;
+}
+.sep {
+    height: 100%;
+    margin: auto;
+    
+}
+.sep img {
+    height: 150px;
+    margin-top: 30px;
+    margin: auto;
+    
+}
+.info {
+    width: 100%;
+    margin:auto;
+    
+
+}
+
+@media (max-width : 1100px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+}
